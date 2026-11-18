@@ -104,3 +104,14 @@ cert/
 
 # Local dev / scratch files
 bugs.json
+
+# .NET build output
+**/bin/
+**/obj/
+**/.vs/
+
+# Restored NuGet packages for the legacy PluginSet project
+PluginSet/packages/
+
+# Strong-name signing keys
+**/*.snk
